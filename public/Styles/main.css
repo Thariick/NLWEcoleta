@@ -1,0 +1,35 @@
+:root {
+    --title-color: #322153; /*atalho pra cor*/
+    --primary-color: #34cb79;
+}
+
+* { /* asterisco é para pegar todos atalhos que tem*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+/*BOX MODEL: modelo de caixa, toda caixa tem largura, altura, espaçamentos, bordas, cor, fundo, preenchimentos
+ou seja, tem a maneira que é vista pelo HTML (display)
+entra no elemento, ai lá embaixo styles tem element.style ai digita display.flex deixa um elemento ao lado do outro*/
+
+
+
